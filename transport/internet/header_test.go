@@ -33,10 +33,6 @@ func TestAllHeadersLoadable(t *testing.T) {
 			Input: new(wechat.VideoConfig),
 			Size:  13,
 		},
-		{
-			Input: new(wireguard.WireguardConfig),
-			Size:  4,
-		},
 	}
 
 	for _, testCase := range testCases {
