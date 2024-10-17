@@ -9,7 +9,6 @@ import (
 	"github.com/xtls/xray-core/transport/internet/headers/srtp"
 	"github.com/xtls/xray-core/transport/internet/headers/utp"
 	"github.com/xtls/xray-core/transport/internet/headers/wechat"
-	"github.com/xtls/xray-core/transport/internet/headers/wireguard"
 )
 
 func TestAllHeadersLoadable(t *testing.T) {
